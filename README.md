@@ -35,7 +35,7 @@ pnpm test
 Zustand-utils is a helper lib that provides functions to simplify usage of zustand and enforce good practices.
 
 ### createHooks
-generateHooks is a function that takes a zustand store and generate hooks to manipulate the store.
+createHooks is a function that takes a zustand store and generate hooks to manipulate the store.
 
 There is one small caveat to be aware of:  
 All stores will export by default a useActions hooks and to prevent confusion, consider name aliasing the hooks to something more specific.
