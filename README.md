@@ -327,7 +327,7 @@ const BearCount = () => {
 
 **Using a simple Zustand store encapsulated in a React Context is a valid replacement to a raw React Context that could create performance issues when misused.**
 
-#Credits
+# Credits
 
 - Thanks to [zustand](https://github.com/pmndrs/zustand) for this amazing state management tool
 - Thanks to [zustand-x](https://github.com/udecode/zustand-x) which was a heavy inspiration on how this tool was built
