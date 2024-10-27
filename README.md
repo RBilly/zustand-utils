@@ -270,7 +270,7 @@ const BearCount = () => {
 }
 
 export const BearTest = () => (
-  <BearProvider initValue={{bear: 4}}>
+  <BearProvider initialState={{bear: 4}}>
     <BearCount/>
   </BearProvider>
 )
